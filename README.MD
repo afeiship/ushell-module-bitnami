@@ -8,5 +8,5 @@ Unix like shell module for bitnami.
 
 ## dump mysql:
 ```bash
-bt-mysqldump -h localhost -u bn_wordpress -pda1d8875dc > bitnami_wordpress2016-10-21.sql;
+bt-mysqldump -h localhost -u bn_wordpress -pda1d8875dc > /tmp/bitnami_wordpress2016-10-21.sql;
 ```
