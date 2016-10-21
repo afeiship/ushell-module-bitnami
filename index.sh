@@ -15,7 +15,11 @@ alias bt-apache-stop='btna stop apache';
 alias bt-apache-restart='btna restart apache';
 
 # btnami mysql
+## core mysq/mysqldump
 alias bt-mysql='$BITNAMI_PATH/mysql/bin/mysql';
+alias bt-mysqldump='$BITNAMI_PATH/mysql/bin/mysqldump';
+
+## mysql quick command:
 alias bt-mysql-start='btna start mysql';
 alias bt-mysql-stop='btna stop mysql';
 alias bt-mysql-restart='btna restart mysql';
